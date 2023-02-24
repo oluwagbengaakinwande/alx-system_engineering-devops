@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir -p /tmp/u # create /tmp/u if it doesn't exist
+mv [[:upper:]]* /tmp/u
