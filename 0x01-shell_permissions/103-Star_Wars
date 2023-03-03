@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main() {
+    system("clear");  // clear the terminal screen
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"); // add some empty lines for centering the text
+    printf("\t\t\tA long time ago in a galaxy far, far away...\n\n");
+    sleep(2); // pause for 2 seconds before printing the next line
+    printf("\t\t\t\tSTAR WARS\n\n");
+    sleep(2); // pause for 2 seconds before printing the next line
+    printf("\t\t\t Episode IV\n\n");
+    sleep(2); // pause for 2 seconds before printing the next line
+    printf("\t\t\tA NEW HOPE\n\n");
+    sleep(2); // pause for 2 seconds before printing the next line
+    printf("\t\t It is a period of civil war.\n");
+    printf("\t\t Rebel spaceships, striking\n");
+    printf("\t\t from a hidden base, have won\n");
+    printf("\t\t their first victory against\n");
+    printf("\t\t the evil Galactic Empire.\n");
+    sleep(5); // pause for 5 seconds before exiting the program
+    return 0;
+}
